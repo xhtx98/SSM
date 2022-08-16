@@ -16,4 +16,6 @@ public interface EmployeeMapper {
      * @return
      */
     List<Employee> getAllEmployee();
+
+    Integer count();
 }
